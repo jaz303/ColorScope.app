@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965A5D3815164EE0007336CD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 965A5D3715164EE0007336CD /* icon.png */; };
+		965A5D3B15165032007336CD /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 965A5D3A15165032007336CD /* icon.icns */; };
+		9695488014ADF09E00AF661D /* CPPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9695487F14ADF09E00AF661D /* CPPreferencesController.xib */; };
+		9695488514ADF19300AF661D /* CPPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695488314ADF19300AF661D /* CPPreferencesController.m */; };
+		9695488E14B1285700AF661D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9695488D14B1285700AF661D /* camera.png */; };
+		9695489114B12EE300AF661D /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 9695489014B12EE300AF661D /* clear.png */; };
+		9695489314B134C600AF661D /* round-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9695489214B134C600AF661D /* round-button.png */; };
+		96A171DB14B7B655000130A1 /* CPSavePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A171DA14B7B655000130A1 /* CPSavePanel.m */; };
+		96A171DE14B7BFCF000130A1 /* CPSavePanelAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A171DD14B7BFCF000130A1 /* CPSavePanelAccessoryView.xib */; };
+		96A320A914981666003AFA07 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A320A814981666003AFA07 /* Cocoa.framework */; };
+		96A320B314981666003AFA07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A320B114981666003AFA07 /* InfoPlist.strings */; };
+		96A320B514981666003AFA07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A320B414981666003AFA07 /* main.m */; };
+		96A320B914981666003AFA07 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 96A320B714981666003AFA07 /* Credits.rtf */; };
+		96A320BC14981666003AFA07 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A320BB14981666003AFA07 /* CPAppDelegate.m */; };
+		96A320BF14981667003AFA07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A320BD14981667003AFA07 /* MainMenu.xib */; };
+		96A320CF1498BF8D003AFA07 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A320CE1498BF8D003AFA07 /* Quartz.framework */; };
+		96C1542B14B63BC700E07166 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C1542A14B63BC700E07166 /* save.png */; };
+		96F75C81149D732200B89432 /* CPBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F75C80149D732200B89432 /* CPBorderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		965A5D3715164EE0007336CD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Capture/icon.png; sourceTree = "<group>"; };
+		965A5D3A15165032007336CD /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Capture/icon.icns; sourceTree = "<group>"; };
+		9695487F14ADF09E00AF661D /* CPPreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPPreferencesController.xib; sourceTree = "<group>"; };
+		9695488214ADF19300AF661D /* CPPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPreferencesController.h; sourceTree = "<group>"; };
+		9695488314ADF19300AF661D /* CPPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPreferencesController.m; sourceTree = "<group>"; };
+		9695488D14B1285700AF661D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		9695489014B12EE300AF661D /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		9695489214B134C600AF661D /* round-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round-button.png"; sourceTree = "<group>"; };
+		96A171D914B7B655000130A1 /* CPSavePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSavePanel.h; sourceTree = "<group>"; };
+		96A171DA14B7B655000130A1 /* CPSavePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSavePanel.m; sourceTree = "<group>"; };
+		96A171DD14B7BFCF000130A1 /* CPSavePanelAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPSavePanelAccessoryView.xib; sourceTree = "<group>"; };
+		96A320A414981666003AFA07 /* Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A320A814981666003AFA07 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		96A320AB14981666003AFA07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		96A320AC14981666003AFA07 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		96A320AD14981666003AFA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96A320B014981666003AFA07 /* Capture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Capture-Info.plist"; sourceTree = "<group>"; };
+		96A320B214981666003AFA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96A320B414981666003AFA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96A320B614981666003AFA07 /* Capture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capture-Prefix.pch"; sourceTree = "<group>"; };
+		96A320B814981666003AFA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		96A320BA14981666003AFA07 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		96A320BB14981666003AFA07 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		96A320BE14981667003AFA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96A320CE1498BF8D003AFA07 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		96C1542A14B63BC700E07166 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		96F75C7F149D732200B89432 /* CPBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBorderView.h; sourceTree = "<group>"; };
+		96F75C80149D732200B89432 /* CPBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBorderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A320A114981666003AFA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A320CF1498BF8D003AFA07 /* Quartz.framework in Frameworks */,
+				96A320A914981666003AFA07 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9695488714ADF1A200AF661D /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				9695488214ADF19300AF661D /* CPPreferencesController.h */,
+				9695488314ADF19300AF661D /* CPPreferencesController.m */,
+				9695487F14ADF09E00AF661D /* CPPreferencesController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		9695488C14B1285700AF661D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96C1542A14B63BC700E07166 /* save.png */,
+				9695489214B134C600AF661D /* round-button.png */,
+				9695488D14B1285700AF661D /* camera.png */,
+				9695489014B12EE300AF661D /* clear.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96A3209914981666003AFA07 = {
+			isa = PBXGroup;
+			children = (
+				965A5D3A15165032007336CD /* icon.icns */,
+				965A5D3715164EE0007336CD /* icon.png */,
+				96A320AE14981666003AFA07 /* Capture */,
+				96A320A714981666003AFA07 /* Frameworks */,
+				96A320A514981666003AFA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A320A514981666003AFA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A320A414981666003AFA07 /* Capture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A320A714981666003AFA07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A320CE1498BF8D003AFA07 /* Quartz.framework */,
+				96A320A814981666003AFA07 /* Cocoa.framework */,
+				96A320AA14981666003AFA07 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96A320AA14981666003AFA07 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A320AB14981666003AFA07 /* AppKit.framework */,
+				96A320AC14981666003AFA07 /* CoreData.framework */,
+				96A320AD14981666003AFA07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		96A320AE14981666003AFA07 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				9695488C14B1285700AF661D /* Resources */,
+				9695488714ADF1A200AF661D /* Preferences */,
+				96A320BA14981666003AFA07 /* CPAppDelegate.h */,
+				96A320BB14981666003AFA07 /* CPAppDelegate.m */,
+				96F75C7F149D732200B89432 /* CPBorderView.h */,
+				96F75C80149D732200B89432 /* CPBorderView.m */,
+				96A171D914B7B655000130A1 /* CPSavePanel.h */,
+				96A171DA14B7B655000130A1 /* CPSavePanel.m */,
+				96A171DD14B7BFCF000130A1 /* CPSavePanelAccessoryView.xib */,
+				96A320BD14981667003AFA07 /* MainMenu.xib */,
+				96A320AF14981666003AFA07 /* Supporting Files */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		96A320AF14981666003AFA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A320B014981666003AFA07 /* Capture-Info.plist */,
+				96A320B114981666003AFA07 /* InfoPlist.strings */,
+				96A320B414981666003AFA07 /* main.m */,
+				96A320B614981666003AFA07 /* Capture-Prefix.pch */,
+				96A320B714981666003AFA07 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A320A314981666003AFA07 /* Capture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A320C214981667003AFA07 /* Build configuration list for PBXNativeTarget "Capture" */;
+			buildPhases = (
+				96A320A014981666003AFA07 /* Sources */,
+				96A320A114981666003AFA07 /* Frameworks */,
+				96A320A214981666003AFA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capture;
+			productName = Capture;
+			productReference = 96A320A414981666003AFA07 /* Capture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A3209B14981666003AFA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96A3209E14981666003AFA07 /* Build configuration list for PBXProject "Capture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96A3209914981666003AFA07;
+			productRefGroup = 96A320A514981666003AFA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A320A314981666003AFA07 /* Capture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A320A214981666003AFA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A320B314981666003AFA07 /* InfoPlist.strings in Resources */,
+				96A320B914981666003AFA07 /* Credits.rtf in Resources */,
+				96A320BF14981667003AFA07 /* MainMenu.xib in Resources */,
+				9695488014ADF09E00AF661D /* CPPreferencesController.xib in Resources */,
+				9695488E14B1285700AF661D /* camera.png in Resources */,
+				9695489114B12EE300AF661D /* clear.png in Resources */,
+				9695489314B134C600AF661D /* round-button.png in Resources */,
+				96C1542B14B63BC700E07166 /* save.png in Resources */,
+				96A171DE14B7BFCF000130A1 /* CPSavePanelAccessoryView.xib in Resources */,
+				965A5D3815164EE0007336CD /* icon.png in Resources */,
+				965A5D3B15165032007336CD /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A320A014981666003AFA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A320B514981666003AFA07 /* main.m in Sources */,
+				96A320BC14981666003AFA07 /* CPAppDelegate.m in Sources */,
+				96F75C81149D732200B89432 /* CPBorderView.m in Sources */,
+				9695488514ADF19300AF661D /* CPPreferencesController.m in Sources */,
+				96A171DB14B7B655000130A1 /* CPSavePanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96A320B114981666003AFA07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A320B214981666003AFA07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96A320B714981666003AFA07 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A320B814981666003AFA07 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		96A320BD14981667003AFA07 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A320BE14981667003AFA07 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96A320C014981667003AFA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96A320C114981667003AFA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96A320C314981667003AFA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Capture/Capture-Prefix.pch";
+				INFOPLIST_FILE = "Capture/Capture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96A320C414981667003AFA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Capture/Capture-Prefix.pch";
+				INFOPLIST_FILE = "Capture/Capture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A3209E14981666003AFA07 /* Build configuration list for PBXProject "Capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A320C014981667003AFA07 /* Debug */,
+				96A320C114981667003AFA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A320C214981667003AFA07 /* Build configuration list for PBXNativeTarget "Capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A320C314981667003AFA07 /* Debug */,
+				96A320C414981667003AFA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A3209B14981666003AFA07 /* Project object */;
+}
