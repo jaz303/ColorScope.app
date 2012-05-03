@@ -1,0 +1,3 @@
+[submodule "vendor/JFImageSavePanel"]
+	path = vendor/JFImageSavePanel
+	url = git@github.com:jaz303/JFImageSavePanel.git

@@ -9,7 +9,7 @@
 #import "CPAppDelegate.h"
 
 #import "CPPreferencesController.h"
-#import "CPSavePanel.h"
+#import "JFImageSavePanel.h"
 
 @interface CPAppDelegate ()
 - (void)installDefaults;
@@ -221,8 +221,8 @@ static UInt8 colormix(UInt8* pixel, float fac[3])
 
 - (IBAction)save:(id)sender
 {
-    CPSavePanel *savePanel = [CPSavePanel savePanel];
-    [savePanel runForWindow:self.window withImage:[imageView_ image]];
+    JFImageSavePanel *savePanel = [JFImageSavePanel savePanel];
+    [savePanel runModalForImage:[imageView_ image] error:NULL];
 }
 
 - (IBAction)showPreferences:(id)sender
