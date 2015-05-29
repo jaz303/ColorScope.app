@@ -10,7 +10,11 @@
 
 @interface CPBorderView : NSView
 {
-    NSColor *fill_;
+    NSColor *fillActive_;
+    NSColor *fillInactive_;
+    BOOL isActive_;
 }
+
+- (void)setActive:(BOOL)isActive;
 
 @end

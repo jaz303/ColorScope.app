@@ -10,30 +10,36 @@
 #import <Quartz/Quartz.h>
 
 #import "CPBorderView.h"
+#import "CPCaptureBox.h"
 
 @interface CPAppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet CPBorderView       *borderLeft_;
     IBOutlet CPBorderView       *borderRight_;
     IBOutlet CPBorderView       *borderBottom_;
+    IBOutlet CPBorderView       *borderTop_;
     
     IBOutlet NSToolbar          *toolbar_;
     IBOutlet NSPopUpButton      *kernelSelect_;
     
-    IBOutlet NSBox              *imageBox_;
-    IBOutlet NSImageView        *imageView_;
+    IBOutlet NSTextField        *txtWidth_;
+    IBOutlet NSTextField        *txtHeight_;
+    IBOutlet NSTextField        *lblX_;
     
-    NSImage                     *originalImage_;
+    IBOutlet CPCaptureBox       *imageBox_;
+    
+    NSImage                     *sampledImage_;
+    
+    BOOL                        liveUpdating_;
+    BOOL                        liveUpdateBusy_;
     
     NSUserDefaults              *defaults_;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 
-- (IBAction)capture:(id)sender;
-- (IBAction)clear:(id)sender;
-- (IBAction)update:(id)sender;
 - (IBAction)save:(id)sender;
-
-- (IBAction)showPreferences:(id)sender;
+- (IBAction)copyToClipboard:(id)sender;
+- (IBAction)update:(id)sender;
+- (IBAction)setSizeFromTextFields:(id)sender;
 
 @end

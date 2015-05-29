@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px;
+	background: #EEEEEE;
+	font: 13px/1.4 Helvetica, sans-serif;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+ul, ol {
+	margin-left: 2em;
+	margin-bottom: 10px;
+}
+
+ul > li,
+ol > li {
+
+}
+
+ul > li {
+
+}
+
+ol > li {
+
+}
+
+#help-page {
+	border: 1px solid #888;
+	background: white;
+	padding: 15px;
+}
+
+.app-title {
+	margin-bottom: 15px;
+}
+
+.app-title * {
+	vertical-align: middle;
+}
+
+.app-title h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.app-title.small h1 {
+	font-size: 16px;
+}
+
+.block-image {
+	margin: 15px 0;
+}
+
+.footer {
+	margin-top: 25px;
+	border-top: 1px solid #a0a0a0;
+	padding-top: 15px;
+	font-size: 11px;
+	color: #a0a0a0;
+}

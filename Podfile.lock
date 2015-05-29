@@ -1,0 +1,10 @@
+PODS:
+  - JFImageSavePanel (1.0.3)
+
+DEPENDENCIES:
+  - JFImageSavePanel (~> 1.0)
+
+SPEC CHECKSUMS:
+  JFImageSavePanel: c440a0f57f4dd44ecd57ac6351029d23a6ecdce0
+
+COCOAPODS: 0.35.0

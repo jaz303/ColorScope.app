@@ -4,12 +4,16 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>ColorScope</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>icon.icns</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>ColorScopeHelp</string>
+	<key>CFBundleHelpBookName</key>
+	<string>ColorScope Help</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.garageduo.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.garageduo.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,17 +21,17 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.developer-tools</string>
+	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Garage Duo Ltd.
+	<string>Copyright © 2015 Garage Duo Ltd.
 All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
